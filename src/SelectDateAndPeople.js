@@ -1,7 +1,6 @@
-import React, { useState, useEffect, component } from "react";
-import { Form, Container, Card, Row, Col, Button } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import styled from 'styled-components';
@@ -209,28 +208,3 @@ const EmailWrapper = styled.div`
     }
 }
 `
-
-/* <div className="d-flex ">
-                            <div className="form-group">
-                                <form id="formData">
-                                    <label htmlFor="exampleInputEmail1">Email address</label>
-                                    <input
-                                        name="email"
-                                        onChange={handleChange}
-                                        type="email"
-                                        className="form-control"
-                                        id="inp_Email"
-                                        aria-describedby="emailHelp"
-                                        placeholder="enter email"
-                                        required
-                                    />
-                                    <button
-                                        id="btn_complete"
-                                        className="btn btn-success"
-                                        onClick={() => handleSubmit()}
-                                    >
-                                        {buttonName}
-                                    </button>
-                                </form>
-                            </div>
-                        </div> */

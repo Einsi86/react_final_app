@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, Card, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
 import styled from 'styled-components';
@@ -24,8 +24,6 @@ function Receipt() {
 
             return new Date(timeString).toLocaleTimeString()
         }
-
-        //console.log(formatDate(dateString))
 
 
         let lines = [];

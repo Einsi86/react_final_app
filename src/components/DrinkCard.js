@@ -1,6 +1,6 @@
-import React, { useEffect, useMemo } from "react";
+import React from "react";
 import { useState } from "react";
-import { Container, Card, Row, Col, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import Styled from 'styled-components';
 
 const DrinkCard = (props) => {
