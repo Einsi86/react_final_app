@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styled from 'styled-components';
-
-
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';

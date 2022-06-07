@@ -1,12 +1,12 @@
+import React, { Component, useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import styled from "styled-components";
 import { Row, Col, Form, Card, Button, Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
 import lilbits from './image/lilbits.png'
 
-function MainScreen() {
+const MainScreen = () => {
     const navigate = useNavigate();
     const [email, setEmail] = useState();
     const [error, setError] = useState();
@@ -137,7 +137,7 @@ function MainScreen() {
                 </Row>
             </StyledContainer>
         </Container>
-    );
+    )
 }
 
 export default MainScreen;

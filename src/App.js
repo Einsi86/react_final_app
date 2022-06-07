@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainScreen from "./MainScreen";
-import Navbar from './components/Navbar.js';
+import TopNavbar from './components/TopNavbar.js';
 import SelectDish from './SelectDish';
 import SelectDrinks from './SelectDrinks';
 import SelectDateAndPeople from './SelectDateAndPeople';
@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <Navbar />
+        <TopNavbar />
       </div>
       <Routes>
         <Route exact path="/" element={<MainScreen />} />

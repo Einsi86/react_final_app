@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import React, { useState, useEffect, component } from "react";
 import { Form, Container, Card, Row, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import { useNavigate } from "react-router-dom";
 
 const SelectDateAndPeople = () => {
+
     const navigate = useNavigate();
     const [people, setPeople] = useState(1);
     const [startDate, setStartDate] = useState(new Date());
@@ -169,7 +170,7 @@ const SelectDateAndPeople = () => {
                 </Row>
             </StyledContainer>
         </Container >
-    );
+    )
 };
 
 export default SelectDateAndPeople;
@@ -209,7 +210,7 @@ const EmailWrapper = styled.div`
 }
 `
 
-{/* <div className="d-flex ">
+/* <div className="d-flex ">
                             <div className="form-group">
                                 <form id="formData">
                                     <label htmlFor="exampleInputEmail1">Email address</label>
@@ -232,4 +233,4 @@ const EmailWrapper = styled.div`
                                     </button>
                                 </form>
                             </div>
-                        </div> */}
+                        </div> */
