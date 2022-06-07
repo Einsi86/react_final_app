@@ -100,27 +100,11 @@ const Meals = () => {
 
 export default Meals
 
-/* const Container = styled.div`
-    display: grid;
-    height:100vh;
-    color: white;
-    grid-template-rows: 0.2fr 1fr 0,5fr 0,5fr;
-    grid-template-areas:
-    "nav nav nav nav"
-    "sidebar main main main"
-    "sidebar content content content"
-    "sidebar footer footer footer";
-    text-align: center;
-    grid-gap: 0.25rem;
-
-` */
 
 const Wrapper = styled.div`
     background-color: #e0e39a;
     margin: auto;
-    //padding: 10px;
     text-align: center;
-    //flex-direction: center;
     max-height: auto;
 
 
@@ -133,7 +117,6 @@ min-height: auto;
 
 
 Button {
-    //float: right !important;
     background-color: #C16757;
     color: white;
     :hover {
@@ -142,25 +125,3 @@ Button {
 }
 
 `
-
-{/* <Wrapper>
-<Card style={{}}>
-    <Row>
-        <Col>
-            <Card.Img className="imgcont" variant="top" src={oneMeal.picture} />
-            <Card.Body>
-                <Card.Title>{oneMeal.name}</Card.Title>
-            </Card.Body>
-        </Col>
-    </Row>
-
-
-    <Row>
-        <Col size={1}>
-            {oneMeal.instructions}
-        </Col>
-    </Row>
-
-</Card>
-<Button variant="primary">Generate New</Button>
-</Wrapper > */}
